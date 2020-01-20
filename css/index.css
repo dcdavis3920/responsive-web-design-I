@@ -1,3 +1,518 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* Set every element's box-sizing to border-box */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.logo {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.d1 {
+    width: 30%;
+}
+
+.start {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.start8 {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.services-header-img {
+    margin: 30px auto;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+.middle-img {
+    min-width: 1000px;
+}
+
+.footer {
+    display: flex;
+}
+
+.info3 {
+    display: column;
+}
+
+a {
+    flex-direction: column;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.copy {
+    display: flex;
+}
+
+.main2 {
+    justify-content: space-between;
+    display: flex;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 60px auto;
+    width: 85%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 10px 0 15px 0;
+}
+
+p {
+    margin: 3px 6 3px 6px;
+}
+
+.next {
+    display: column;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.ending {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 65px auto 65px auto;
+    width: 64%;
+}
+
+.features1 {
+    width: 46%;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.sales {
+    width: 46%;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.ios {
+    width: 46%;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.img {
+    width: 46%;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.stack {
+    width: 46%;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.cell {
+    width: 46%;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.our {
+    margin: 25px;
+}
+
+ol {
+    margin: 0 25px 0 25px 0;
+}
+
+.finished {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.last {
+    width: 40%;
+}
+
+.services-info-img {
+    width: 99%;
+}
+
+.introserv1 {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 10px 0 15px 0;
+}
+
+.logo {
+    width: 70%;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto 20px auto;
+    justify-content: space-between;
+    width: 66%;
+}
+
+.about {
+    width: 100%;
+}
+
+.div3 {
+    display: flex;
+    justify-content: center;
+}
+
+.p1p {
+    width: 480px;
+    margin: 0 15px 0 0;
+}
+
+.p1p2 {
+    width: 480px;
+    margin: 0 0 0 15px;
+}
+
+.info2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto 100px auto;
+    justify-content: space around;
+    width: 66%;
+}
+
+.p3 {
+    width: 315px;
+}
+
+.copy a {
+    display: flex;
+    flex-direction: center;
+    margin: 35px auto 28px auto;
+}
+
+.p50 {
+    margin: 5px 0 5px 250px;
+}
+
+.six {
+    margin: 20px 0 10px 250px;
+}
+
+@media (max-width: 800px) {
+    body {
+        width: 100%;
+    }
+    .main {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        width: 100%;
+        border: red 2px solid;
+    }
+    .topimage {
+        display: none;
+    }
+    .introserv1 {
+        width: 100%;
+        display: flex
+    }
+    h1 {
+        width: 75%;
+    }
+    .logo {
+        width: 25%;
+        margin: 0 auto 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    .intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .main6 {
+        display: none;
+        width: 50%;
+        display: flex;
+    }
+    .d2 {
+        width: 50%;
+        margin: 0 auto 0 auto;
+    }
+    button {
+        width: 75%;
+        padding: 5px;
+    }
+    .info {
+        width: 100%;
+        display: flex;
+        flex-direction: flex-start;
+    }
+    .features {
+        width: 100%;
+    }
+    .about {
+        width: 100%;
+    }
+    .p1p {
+        width: 80%;
+    }
+    .p1p2 {
+        width: 80%;
+        margin: 5px 0 o;
+        max-width: 100%;
+    }
+    nav {
+        width: 100%;
+    }
+    .div3 {
+        width: 75%;
+    }
+    .info2 {
+        width: 100%;
+    }
+    .p3 {
+        width: 95%;
+    }
+    .footer {
+        margin: 15px 0 15px 0;
+        width: 25%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .info3 {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        width: 100%;
+    }
+    .main {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.introserv1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro {
+    text-align: center;
+}
+
+.features {
+    border: blue;
+}
+
+.p1p {
+    border: blue;
+}
+
+.middle-img {
+    width: 15%;
+}
+
+.d3 {
+    width: 10%;
+}
