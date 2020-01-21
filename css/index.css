@@ -170,10 +170,6 @@ h5 {
     margin: 0 auto;
 }
 
-.d1 {
-    width: 30%;
-}
-
 .start {
     display: flex;
     justify-content: center;
@@ -187,22 +183,30 @@ h5 {
 }
 
 .services-header-img {
-    margin: 30px auto;
+    margin: 30px auto
 }
 
 .intro {
     display: flex;
     justify-content: space-around;
-    width: 70%;
-    margin: 0 auto;
+    width: 65%;
+    justify-content: center;
+    margin: 0 auto 5% auto;
 }
 
 h1 {
     font-size: 75px;
 }
 
+.info {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin: 0 auto 1% auto;
+}
+
 .middle-img {
-    min-width: 1000px;
+    min-width: 65%;
 }
 
 .footer {
@@ -238,6 +242,10 @@ a {
     justify-content: center;
     margin: 0 auto 60px auto;
     width: 85%;
+}
+
+.div6 {
+    margin: 100px 0;
 }
 
 nav {
@@ -337,14 +345,6 @@ ol {
     width: 70%;
 }
 
-.info {
-    display: flex;
-    justify-content: space-between;
-    margin: 50px auto 20px auto;
-    justify-content: space-between;
-    width: 66%;
-}
-
 .about {
     width: 100%;
 }
@@ -354,14 +354,20 @@ ol {
     justify-content: center;
 }
 
+.features {
+    width: 50%;
+}
+
+.about {
+    width: 50%;
+}
+
 .p1p {
-    width: 480px;
-    margin: 0 15px 0 0;
+    width: 100%;
 }
 
 .p1p2 {
-    width: 480px;
-    margin: 0 0 0 15px;
+    width: 100%;
 }
 
 .info2 {
@@ -391,128 +397,123 @@ ol {
 }
 
 @media (max-width: 800px) {
-    body {
-        width: 100%;
-    }
-    .main {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: space-evenly;
-        width: 100%;
-        border: red 2px solid;
-    }
-    .topimage {
+    .gone {
         display: none;
     }
-    .introserv1 {
+    .main {
+        border: red solid 2px;
         width: 100%;
-        display: flex
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
     }
-    h1 {
-        width: 75%;
+    .introserv1 {
+        border: blue solid 2px;
+        width: 100%;
     }
     .logo {
-        width: 25%;
-        margin: 0 auto 0 auto;
+        width: 20%;
         display: flex;
         justify-content: center;
     }
-    .intro {
+    h1 {
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-    .main6 {
-        display: none;
-        width: 50%;
-        display: flex;
-    }
-    .d2 {
-        width: 50%;
-        margin: 0 auto 0 auto;
+        align-content: center;
     }
     button {
-        width: 75%;
-        padding: 5px;
+        width: 70%;
+        padding: 3%;
     }
     .info {
-        width: 100%;
-        display: flex;
-        flex-direction: flex-start;
+        width: 90%;
     }
-    .features {
-        width: 100%;
-    }
-    .about {
-        width: 100%;
-    }
-    .p1p {
-        width: 80%;
-    }
-    .p1p2 {
-        width: 80%;
-        margin: 5px 0 o;
-        max-width: 100%;
-    }
-    nav {
-        width: 100%;
-    }
-    .div3 {
-        width: 75%;
+    .middle-img {
+        width: 90%;
+        margin: 0 auto;
     }
     .info2 {
-        width: 100%;
+        width: 90%;
+        border: red solid 2px;
+    }
+    .product {
+        width: 60%;
+        border: blue solid 2px;
+    }
+    .vision {
+        width: 60%;
+        border: 2px red solid;
     }
     .p3 {
-        width: 95%;
-    }
-    .footer {
-        margin: 15px 0 15px 0;
-        width: 25%;
-        display: flex;
-        justify-content: flex-start;
-    }
-    .info3 {
-        display: flex;
-        justify-content: flex-start;
+        width: 60%;
     }
 }
 
 @media (max-width: 500px) {
-    body {
-        width: 100%;
+    .gone {
+        display: none;
     }
     .main {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
-        text-align: center;
+        width: 100%;
     }
-}
-
-.introserv1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.intro {
-    text-align: center;
-}
-
-.features {
-    border: blue;
-}
-
-.p1p {
-    border: blue;
-}
-
-.middle-img {
-    width: 15%;
-}
-
-.d3 {
-    width: 10%;
+    .introserv1 {
+        width: 100%;
+    }
+    button {
+        width: 70%;
+        padding: 5%;
+        margin: 0 0 20% 0;
+    }
+    .introserv1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5% auto 5% auto;
+        border-bottom: black solid 1px;
+    }
+    a {
+        margin: 5% 0;
+    }
+    .logo {
+        width: 100%;
+    }
+    .info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .features {
+        width: 85%;
+        margin: 0 auto 0 auto;
+    }
+    .about {
+        width: 85%;
+        margin: 5% auto 5% auto;
+    }
+    .middle-img {
+        width: 85%;
+        margin: 0 0 5% 0;
+    }
+    .info2 {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+    }
+    .p3 {
+        width: 100%;
+        margin: 0 0 5% 0;
+    }
+    .thrid {
+        margin: 5% 0;
+    }
+    .footer {
+        width: 30%;
+        display: flex;
+        align-content: flex-start;
+    }
+    .product {
+        margin: 3% 0;
+    }
 }
