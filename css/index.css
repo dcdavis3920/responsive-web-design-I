@@ -380,14 +380,6 @@ License: none (public domain)
                     margin: 35px auto 28px auto;
                 }
                 
-                .p50 {
-                    margin: 5px 0 5px 250px;
-                }
-                
-                .six {
-                    margin: 20px 0 10px 250px;
-                }
-                
                 @media (max-width: 800px) {
                     .gone {
                         display: none;
@@ -434,6 +426,11 @@ License: none (public domain)
                     }
                     .info2 div {
                         width: 30%;
+                    }
+                    .footer {
+                        display: flex;
+                        flex-direction: column;
+                        margin: 0 0 0 4%;
                     }
                     /*  .product {
 width: 60%
@@ -510,7 +507,8 @@ width: 60%;
                     .footer {
                         width: 100%;
                         display: flex;
-                        align-items: flex-start;
+                        flex-direction: column;
+                        margin: 0 0 0 8%;
                     }
                     .p50 {
                         display: flex;
